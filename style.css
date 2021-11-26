@@ -1,0 +1,81 @@
+header{
+    background-color: black;
+    display: grid;
+
+}
+
+.unnamed{
+   
+    grid-template-columns: 200px 800px ;
+}
+.container{
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: 100px ;
+    grid-template-columns: 100px 800px ;
+}
+
+.container >img{
+    grid-column: 1;
+    padding-top: 20px;
+    padding-right: -50px;
+}
+.flex-item{
+    grid-column: 2;
+    color: white;
+    
+}
+main{
+    margin-left: 160px;
+    margin-top: 30px;
+}
+
+.menu{ 
+
+    background-color:whitesmoke; 
+    height: 100%;
+    width: 150px;
+    padding-top: 20px;
+    justify-content: center;
+    position: absolute;
+}
+.filter-group >button{
+    background-color:transparent;
+    display: inline;
+    border: 0;
+}
+.newI > a{
+    float: right;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(10, 163, 10);
+    width: 150px;
+    justify-content: center;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.form-group > button{
+    background-color: rgba(25, 95, 226, 0.87);
+    color: white;
+    width: 75px;
+}
+.filter-group > button:focus{
+    background-color: rgba(25, 95, 226, 0.87);
+    color: white;
+}
+.menu a{
+    width: 100%; 
+    margin-top: -10px;
+    height: 50px;
+    border: 0;
+    text-decoration:none;
+    color: black;
+}
+
+.error {
+    color:red;
+}
+footer{
+    margin-left: 160px;
+}
