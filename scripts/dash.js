@@ -1,6 +1,6 @@
-//JavaScript for BugMe Issue Tracker
 
-var id = window.location.search.slice(1);
+
+var id = window.location.search(1);
 //var id = $_SESSION['id'];
 
 document.addEventListener('DOMContentLoaded', function(){
